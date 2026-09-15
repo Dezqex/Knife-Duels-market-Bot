@@ -1,7 +1,7 @@
 {
   "name": "discord-duel-bot",
   "version": "1.0.0",
-  "description": "Discord bot for virtual-item duels (Coinflip, Mines) using Components V2.",
+  "description": "Discord bot for Wagers (Coinflip, Mines and rps) using Components V2.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
