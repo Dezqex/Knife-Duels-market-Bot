@@ -1,0 +1,74 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "clientId": "BOT_CLIENT_ID",
+  "guildId": "YOUR_GUILD_ID",
+
+  "colors": {
+    "primary": "#5865F2",
+    "success": "#57F287",
+    "danger": "#ED4245"
+  },
+
+  "emojis": {
+    "flip": "🪙",
+    "check": "✅",
+    "pending": "⏳",
+    "cross": "❌",
+    "coinHeads": "🅗",
+    "coinTails": "🅣",
+    "trophy": "🏆",
+    "mine": "💥",
+    "gem": "💎",
+    "hiddenTile": "❔",
+    "dice": "🎲",
+    "rock": "🪨",
+    "paper": "📄",
+    "scissors": "✂️",
+    "rpsLog": "⚔️"
+  },
+
+  "logging": {
+    "_comment": "If enabled, every finished match (not declines/timeouts) gets posted as a summary in this channel.",
+    "enabled": false,
+    "channelId": "CHANNEL_ID"
+  },
+
+  "channelAccess": {
+    "_comment": "mode can be 'all' (no restriction), 'whitelist' (only listed channels allowed) or 'blacklist' (all channels except the listed ones allowed).",
+    "coinflip": {
+      "mode": "all",
+      "channels": ["CHANNEL_ID"]
+    },
+    "mines": {
+      "mode": "all",
+      "channels": ["CHANNEL_ID"]
+    },
+    "rps": {
+      "mode": "all",
+      "channels": ["CHANNEL_ID"]
+    }
+  },
+
+  "coinflip": {
+    "maxFirstTo": 20,
+    "confirmationTimeoutSeconds": 60,
+    "flipIntervalMs": 2000
+  },
+
+  "mines": {
+    "rows": 3,
+    "cols": 4,
+    "defaultMineCount": 1,
+    "confirmationTimeoutSeconds": 60,
+    "moveTimeoutSeconds": 60,
+    "rollIntervalMs": 350,
+    "minrollSteps": 5,
+    "maxrollSteps": 12
+  },
+
+  "rps": {
+    "maxFirstTo": 20,
+    "confirmationTimeoutSeconds": 60,
+    "moveTimeoutSeconds": 60
+  }
+}

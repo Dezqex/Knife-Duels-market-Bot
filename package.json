@@ -1,0 +1,17 @@
+{
+  "name": "discord-duel-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for virtual-item duels (Coinflip, Mines) using Components V2.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
